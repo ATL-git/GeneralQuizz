@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Quizz</h1>
+    </header>
+    <main>
+        <article class="quizzquestion">
+            <h2> Question :</h2>
+            <p id="question"></p>
+            <div class="barre"></div>
+            <div class="qdisplay">
+                <p onclick="valide(this)" class="reponse" style="cursor:pointer"></p>
+                <p onclick="valide(this)" class="reponse" style="cursor:pointer"></p>
+                <p onclick="valide(this)" class="reponse" style="cursor:pointer"></p>
+                <p onclick="valide(this)" class="reponse" style="cursor:pointer"></p>
+            </div>
+        </article>
+        <div id="button" class="hidden">
+            <div >
+                <p id="result" ></p>
+            </div>
+            <div id="qSuivant" >
+                <p onclick="suivant()" id="next" style="cursor:pointer" >question suivante</p>
+                <p onclick="replay()" class="hidden" id="replay" style="cursor:pointer" >Rejouer</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
