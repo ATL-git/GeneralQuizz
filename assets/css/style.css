@@ -169,3 +169,12 @@ h2 {
         width: 0%;
     }
 }
+
+@media (max-width:800px){
+    #button{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+    }
+}
